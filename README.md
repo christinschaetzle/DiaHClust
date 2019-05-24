@@ -8,7 +8,7 @@ DiaHClust is an R package which implements the DiaHClust methodology (Schätzle 
 
 We plan to submit the DiaHClust package to CRAN in order to make it available in R directly. Thus, the package follows the typical R-package structure. The R code itself can be found in the R-subdirectory of DiaHClust including sample calls of the R commands. For usage in R, use the source()-function to import the code stored in diahclust.R for now. In man, you'll find a bunch of help pages describing each individual function in more detail. Example data is stored in the data-subdirectory. 
  
-More information can be found in Schätzle and Booth (2019) which will be published soon. We'll update the references to this paper accordingly. 
+More information can be found in Schätzle and Booth (2019) which will be published soon. Please cite this paper when using DiaHClust for any publications, conferences, etc. We'll update the references to this paper accordingly. 
 
 
  
