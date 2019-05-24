@@ -9,9 +9,13 @@ DiaHClust is an R package which implements the DiaHClust methodology (Schätzle 
 We plan to submit the DiaHClust package to CRAN in order to make it available in R directly. Thus, the package follows the typical R-package structure. The R code itself can be found in the R-subdirectory of DiaHClust including sample calls of the R commands. For usage in R, use the source()-function to import the code stored in diahclust.R for now. In man, you'll find a bunch of help pages describing each individual function in more detail. Example data is stored in the data-subdirectory. 
  
 More information can be found in Schätzle and Booth (2019) which will be published soon. We'll update the references to this paper accordingly. 
+
+
  
 References 
 
 Stefan Th. Gries and Martin Hilpert. 2008. The identification of stages in diachronic data: variability-based neighbour clustering. Corpora, 3(1):59–81. 
+
 Stefan Th. Gries and Martin Hilpert. 2012. Variability-based neighbor clustering: A bottom-up approach to periodization in historical linguistics. In Nevalainen Terttu and Elizabeth Closs Traugott, editors, The Oxford Handbook of the History of English, pages 134–144. Oxford University Press, Oxford. 
+
 Christin Schaetzle and Hannah Booth. 2019. DiaHClust: an iterative hierarchical clustering apprach for identifying stages in language change. to appear.
