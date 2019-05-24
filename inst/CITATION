@@ -1,0 +1,24 @@
+## 
+## To cite DiaHClust in publications use:
+## 
+##   Christin Schätzle and Hannah Booth (2019). DiaHClust: an iterative
+##   hierarchical clustering approach for identifying stages in language
+##	 change. to appear.
+##
+##   The article is in preperation and is going to be published soon.
+##   We will adjust the citation accordingly.
+## 
+## A BibTeX entry for LaTeX users is
+## 
+##   @Article{,
+##     title = {{DiaHClust}: an iterative hierarchical clustering approach 
+##      for identifying stages in language change},
+##     author = {Christin Schätzle and Hannah Booth},
+##     journal = {NA},
+##     year = {2019},
+##     volume = {NA},
+##     number = {NA},
+##     pages = {NA},
+##     url = {NA},
+##   }
+
