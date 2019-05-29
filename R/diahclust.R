@@ -151,7 +151,7 @@ diahclust=function(x, y, method=c("single","complete","average","median", "ward.
   
   #continue optimal clustering until less than 10 clusters, aggregate data along the way
   
-  while(optimal_it$opt_clust>10) {
+  while(optimal_it$opt_clust>9) {
     print(paste0("Iteration: ", count))
     data_it=aggregate_data(optimal_it, data_it)  #recursion needed
     aggregated.cor=cor(data_it) 
