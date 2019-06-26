@@ -90,7 +90,7 @@ optimal_clust=function(x, y) #x has to be vnc() object and y a distance matrix, 
     find_singles=which(final_clust==singles[j]) #clusters with only one members
     
     #get only the ones that are still single texts
-    if (length(find_singles)>0 && grepl("^X[0-9]+\\.[A-Z]+$", rownames(as.matrix(find_singles)))) {
+    if (length(find_singles)>0 && grepl("^X?[0-9]+\\.[A-Z]+$", rownames(as.matrix(find_singles)))) {
       print(rownames(as.matrix(find_singles)))
     }
     
@@ -166,8 +166,8 @@ diahclust=function(x, y, method=c("single","complete","average","median", "ward.
     
     for (i in seq(1,J))
     {
-      last=stringr::str_extract(string = colnames(data_it)[i], pattern = "X[0-9]+\\.([A-Z]|[0-9])+$")
-      first=stringr::str_extract(string = colnames(data_it)[i], pattern = "^X[0-9]+\\.([A-Z]|[0-9])+")
+      last=stringr::str_extract(string = colnames(data_it)[i], pattern = "X?[0-9]+\\.([A-Z]|[0-9])+$")
+      first=stringr::str_extract(string = colnames(data_it)[i], pattern = "^X?[0-9]+\\.([A-Z]|[0-9])+")
       
       abbreviated_name=paste(first, last, sep=" - ")
       if (first==last) {
